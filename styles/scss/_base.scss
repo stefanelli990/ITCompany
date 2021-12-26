@@ -1,0 +1,36 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    color: $white-color;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: $white-color;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    h3 {
+        margin-bottom: 0;
+        font-weight: 700;
+        color: $white-color;
+    }
+    span {
+        color: $primary-color;
+    }
+}

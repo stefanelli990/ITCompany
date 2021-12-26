@@ -1,0 +1,54 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.logo h3 {
+  margin-bottom: 0;
+  font-weight: 700;
+  color: #fff;
+}
+
+.logo span {
+  color: #2D8ACA;
+}
+
+.navigation {
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navigation li {
+  margin-left: 24px;
+}
+
+.hero-section {
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 56, 95, 0.9))), url("../../../assets/images/hero-img.jpg");
+  background: linear-gradient(rgba(0, 56, 95, 0.9)), url("../../../assets/images/hero-img.jpg");
+}
+/*# sourceMappingURL=main.css.map */
