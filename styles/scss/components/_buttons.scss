@@ -1,0 +1,21 @@
+.btn {
+    color: $white-color;
+    background-color: transparent;
+    border: 1px solid $white-color;
+    padding: 16px 24px;
+    border-radius: $border-radius;
+    width: fit-content;
+    font-weight: 500;
+    transition: $transition;
+    img {
+        display: none;
+    }
+    &:hover {
+        color: $white-color;
+    }
+    &.active {
+        img {
+            display: inline;
+        }
+    }
+}

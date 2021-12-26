@@ -34,21 +34,50 @@ li {
   color: #2D8ACA;
 }
 
-.navigation {
-  height: 120px;
+.custom-navbar {
+  height: 100px;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
 }
 
-.navigation li {
+.custom-navbar li {
   margin-left: 24px;
+}
+
+.btn {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 16px 24px;
+  border-radius: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btn img {
+  display: none;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.btn.active img {
+  display: inline;
 }
 
 .hero-section {
   min-height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 56, 95, 0.9))), url("../../../assets/images/hero-img.jpg");
   background: linear-gradient(rgba(0, 56, 95, 0.9)), url("../../../assets/images/hero-img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /*# sourceMappingURL=main.css.map */
