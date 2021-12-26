@@ -1,7 +1,29 @@
+// hero section
 .hero-section {
     min-height: 100vh;
     background: linear-gradient(rgba(0, 56, 95, 0.9)), url('../../../assets/images/hero-img.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    
+}
+
+// services
+.services {
+    padding: 80px;
+    &__item {
+        background-color: $gray-color;
+        text-align: center;
+        padding: 24px;
+        border-radius: $border-radius;
+        img {
+            margin-bottom: 24px;
+        }
+        h4 {
+            font-weight: 500;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
 }
