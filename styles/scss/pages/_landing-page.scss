@@ -1,7 +1,7 @@
 // hero section
 .hero-section {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 56, 95, 0.9)), url('../../../assets/images/hero-img.jpg');
+    background: linear-gradient(rgba(0, 56, 95, 0.9)), url('/assets/images/hero-img.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,7 +88,7 @@
 // cta section
 .cta-section {
     padding: 100px;
-    background: linear-gradient(rgba(0, 56, 95, 0.9)), url('../../../assets/images/cta-image.jpg');
+    background: linear-gradient(rgba(0, 56, 95, 0.9)), url('/assets/images/cta-image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

@@ -136,8 +136,8 @@ li {
 
 .hero-section {
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 56, 95, 0.9))), url("../../../assets/images/hero-img.jpg");
-  background: linear-gradient(rgba(0, 56, 95, 0.9)), url("../../../assets/images/hero-img.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 56, 95, 0.9))), url("/assets/images/hero-img.jpg");
+  background: linear-gradient(rgba(0, 56, 95, 0.9)), url("/assets/images/hero-img.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -236,8 +236,8 @@ li {
 
 .cta-section {
   padding: 100px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 56, 95, 0.9))), url("../../../assets/images/cta-image.jpg");
-  background: linear-gradient(rgba(0, 56, 95, 0.9)), url("../../../assets/images/cta-image.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 56, 95, 0.9))), url("/assets/images/cta-image.jpg");
+  background: linear-gradient(rgba(0, 56, 95, 0.9)), url("/assets/images/cta-image.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
