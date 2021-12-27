@@ -1,14 +1,11 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-body {
-    color: $dark-color;
-}
 
 h1, h2, h3, h4, h5 {
     margin-bottom:0;
-    font-weight: 700;
+    
 }
 
 p {
@@ -18,6 +15,11 @@ p {
 a {
     text-decoration: none;
     color: $white-color;
+}
+
+img {
+    width: 100%;
+    border-radius: $border-radius;
 }
 
 ul {
@@ -31,6 +33,7 @@ li {
 .logo {
     h3 {
         color: $white-color;
+        font-weight: 700;
     }
     span {
         color: $primary-color;

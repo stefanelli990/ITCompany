@@ -1,9 +1,6 @@
-.btn,
-button {
+.btn {
   width: 170px;  
   background: transparent;
-  border: 1px solid $white-color;
-  color: white;
   padding: 16px 24px;
   cursor: pointer;
   outline: none;
@@ -12,8 +9,25 @@ button {
   position: relative;
   overflow: hidden;
   border-radius: $border-radius;
-  &:hover {
+
+
+  &--outline-white {
+    border: 1px solid $white-color;
+    color: white;
+    &:hover {
       color: $white-color;
+    }
+  }
+  &--outline-blue {
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  &--small {
+    padding: 8px 8px;
+    width: 140px;
   }
 }
 

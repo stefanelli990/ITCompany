@@ -1,14 +1,9 @@
 * {
-  font-family: 'Montserrat', sans-serif;
-}
-
-body {
-  color: #4D4D4D;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
   margin-bottom: 0;
-  font-weight: 700;
 }
 
 p {
@@ -18,6 +13,11 @@ p {
 a {
   text-decoration: none;
   color: #fff;
+}
+
+img {
+  width: 100%;
+  border-radius: 30px;
 }
 
 ul {
@@ -30,6 +30,7 @@ li {
 
 .logo h3 {
   color: #fff;
+  font-weight: 700;
 }
 
 .logo span {
@@ -48,12 +49,9 @@ li {
   margin-left: 24px;
 }
 
-.btn,
-button {
+.btn {
   width: 170px;
   background: transparent;
-  border: 1px solid #fff;
-  color: white;
   padding: 16px 24px;
   cursor: pointer;
   outline: none;
@@ -64,9 +62,27 @@ button {
   border-radius: 30px;
 }
 
-.btn:hover,
-button:hover {
+.btn--outline-white {
+  border: 1px solid #fff;
+  color: white;
+}
+
+.btn--outline-white:hover {
   color: #fff;
+}
+
+.btn--outline-blue {
+  border: 1px solid #2D8ACA;
+  color: #2D8ACA;
+}
+
+.btn--outline-blue:hover {
+  color: #2D8ACA;
+}
+
+.btn--small {
+  padding: 8px 8px;
+  width: 140px;
 }
 
 .btn-arrow {
@@ -110,6 +126,14 @@ button:hover {
   right: -1.8rem;
 }
 
+.footer-top {
+  padding: 100px 0;
+}
+
+.footer-top .logo h3 {
+  color: #4D4D4D;
+}
+
 .hero-section {
   min-height: 100vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 56, 95, 0.9))), url("../../../assets/images/hero-img.jpg");
@@ -117,10 +141,11 @@ button:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #fff;
 }
 
 .services {
-  padding: 80px;
+  padding: 100px 0;
 }
 
 .services__item {
@@ -132,13 +157,94 @@ button:hover {
 
 .services__item img {
   margin-bottom: 24px;
-}
-
-.services__item h4 {
-  font-weight: 500;
+  width: 4rem;
+  border-radius: unset;
 }
 
 .services__item p {
   margin-bottom: 0;
+}
+
+.projects {
+  padding: 0 0 100px;
+}
+
+.projects__item {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.projects__item img {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projects__item:hover img {
+  -webkit-transform: scale(1.5) rotate(20deg);
+          transform: scale(1.5) rotate(20deg);
+}
+
+.projects__item .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0, 56, 95, 0.9);
+  opacity: 0;
+  border-radius: 30px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.projects__item .overlay h3 {
+  margin-bottom: 24px;
+}
+
+.projects__item .overlay:hover {
+  opacity: 1;
+}
+
+.about {
+  padding: 0 0 100px;
+}
+
+.about img {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cta-section {
+  padding: 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 56, 95, 0.9))), url("../../../assets/images/cta-image.jpg");
+  background: linear-gradient(rgba(0, 56, 95, 0.9)), url("../../../assets/images/cta-image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cta-section h1 {
+  margin-bottom: 24px;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
